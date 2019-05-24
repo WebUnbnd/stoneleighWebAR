@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="index.css">
+
+        <!-- XR Extras - provides utilities like load screen, almost there, and error handling.
+         See github.com/8thwall/web/xrextras -->
+        <script src="//unbnd.cloud/resources/8thwall/dist/xrextras.js" async></script>
+
+        <script async src="https://apps.8thwall.com/xrweb?appKey=yexT9x0f5bWlhe2JN1NaAC2JF4K6cv7kMYkd7RTPZ9W5QJpEkGLzVeD60ZCPxdAs7qcGwz"></script>
+    </head>
+    <body>
+        <div id='sumerian-app' class='absolute-fill'>
+            <div id="sumerian-scene-dom-id"></div>
+        </div>
+
+        <div id="container" class="absolute-fill container">
+
+
+          <div id="imageReader" class="image-reader">
+            <img src="img/ScreenOverlay.png" alt="">
+          </div>
+
+          <div id="show-button" class="button">
+            Tap a surface
+          </div>
+
+          <div id="recenter" class="button">
+            Recenter
+          </div>
+          
+          <a id="buy-me" class="button buy-me" href="https://www.danmurphys.com.au/product/DM_934480/stoneleigh-wild-valley-pinot-noir" target="_blank">
+            Buy Me Now
+          </a>
+        </div>
+        <script src="main.bundle.js"></script>
+    </body>
+</html>

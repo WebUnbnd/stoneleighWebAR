@@ -1,0 +1,19 @@
+{
+    "react": {
+        "awscloudformation": {
+            "AuthRoleName": "stoneleigh-prototype-20190520131633-authRole",
+            "UnauthRoleArn": "arn:aws:iam::716523422883:role/stoneleigh-prototype-20190520131633-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::716523422883:role/stoneleigh-prototype-20190520131633-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "stoneleigh-prototype-20190520131633-deployment",
+            "UnauthRoleName": "stoneleigh-prototype-20190520131633-unauthRole",
+            "StackName": "stoneleigh-prototype-20190520131633",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:716523422883:stack/stoneleigh-prototype-20190520131633/ab8a28c0-7aad-11e9-8986-02de0dfac7f6"
+        },
+        "categories": {
+            "auth": {
+                "cognito61c12382": {}
+            }
+        }
+    }
+}
